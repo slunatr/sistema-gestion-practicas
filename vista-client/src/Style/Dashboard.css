@@ -1,0 +1,20 @@
+
+
+.sidebar {
+  min-height: 100vh;
+}
+
+.main-content {
+  background-color: #f8f9fa;
+}
+
+dashboard-layout .navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+}
+
+.min-vh-100 {
+  min-height: 100vh;
+}

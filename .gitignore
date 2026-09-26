@@ -1,0 +1,24 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Django y base de datos
+*.sqlite3
+
+# Variables de entorno y secretos
+.env
+.env.*
+!.env.example
+
+# React / Node
+node_modules/
+vista-client/node_modules/
+vista-client/dist/
+
+# Archivos del sistema y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

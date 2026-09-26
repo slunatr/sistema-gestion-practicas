@@ -1,0 +1,24 @@
+
+.auth-layout {
+  height: 100vh;
+  width: 100vw;
+  background: url('/src/assets/img/Imagen-fondo.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-overlay {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(4px);
+  width: 100%;
+  max-width: 400px;
+}
+
+.auth-box {
+  width: 100%;
+}
